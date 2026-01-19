@@ -16,7 +16,7 @@ body {
 
 header {
     background-color: rgba(255,255,255,1);
-    background-image: url("/sotsuten2025/img/bg_pc\ 1.png");
+    background-image: url(../img/bg_pc\ 1.png);
     height: 80px;
     position: fixed;
     width: 100%;
