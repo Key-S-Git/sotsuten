@@ -1,0 +1,409 @@
+[
+    {
+      "number": 22120029,
+      "name": "今野桃花",
+      "labo": "suguri"
+    },
+    {
+      "number": 22120112,
+      "name": "志賀洪栄",
+      "labo": "kayahara"
+    },
+    {
+      "number": 22220021,
+      "name": "磯和香",
+      "labo": "kayahara"
+    },
+    {
+      "number": 22220033,
+      "name": "上野明璃",
+      "labo": "kayahara"
+    },
+    {
+      "number": 22220059,
+      "name": "金山友優",
+      "labo": "kayahara"
+    },
+    {
+      "number": 22220077,
+      "name": "倉品侑佳",
+      "labo": "kayahara"
+    },
+    {
+      "number": 22220088,
+      "name": "佐久間葉月",
+      "labo": "kayahara"
+    },
+    {
+      "number": 22220125,
+      "name": "鈴木弘氣",
+      "labo": "kayahara"
+    },
+    {
+      "number": 22220158,
+      "name": "豊島優弥",
+      "labo": "kayahara"
+    },
+    {
+      "number": 22220172,
+      "name": "橋元まりな",
+      "labo": "kayahara"
+    },
+
+    {
+      "number": 22220007,
+      "name": "浅野千鈴",
+      "labo": "sato"
+    },
+    {
+      "number": 22220024,
+      "name": "伊藤海斗",
+      "labo": "sato"
+    },
+    {
+      "number": 22220081,
+      "name": "昆奈緒美",
+      "labo": "sato"
+    },
+    {
+      "number": 22220086,
+      "name": "小森紅羽",
+      "labo": "sato"
+    },
+    {
+      "number": 22220124,
+      "name": "鈴木佳祐",
+      "labo": "sato"
+    },
+    {
+      "number": 22220154,
+      "name": "照井涼太",
+      "labo": "sato"
+    },
+    {
+      "number": 22220162,
+      "name": "中嶋瑞季",
+      "labo": "sato"
+    },
+    {
+      "number": 22120210,
+      "name": "横山結士",
+      "labo": "maka"
+    },
+    {
+      "number": 22220010,
+      "name": "浅利涼音",
+      "labo": "maka"
+    },
+    {
+      "number": 22220127,
+      "name": "鈴木沢斗",
+      "labo": "maka"
+    },
+    {
+      "number": 22220006,
+      "name": "上石颯太",
+      "labo": "ota"
+    },
+    {
+      "number": 22220062,
+      "name": "狩野駿介",
+      "labo": "ota"
+    },
+    {
+      "number": 22220073,
+      "name": "工藤綾華",
+      "labo": "ota"
+    },
+    {
+      "number": 22220143,
+      "name": "武部ゆう",
+      "labo": "ota"
+    },
+    {
+      "number": 22220144,
+      "name": "武山千夏",
+      "labo": "ota"
+    },
+    {
+      "number": 22220145,
+      "name": "夛田光稀羽",
+      "labo": "ota"
+    },
+    {
+      "number": 22220168,
+      "name": "二瓶愛梨",
+      "labo": "ota"
+    },
+    {
+      "number": 22220187,
+      "name": "松元結南",
+      "labo": "ota"
+    },
+    {
+      "number": 22220014,
+      "name": "阿部遥斗",
+      "labo": "usui"
+    },
+    {
+      "number": 22220019,
+      "name": "池田リン",
+      "labo": "usui"
+    },
+    {
+      "number": 22220045,
+      "name": "岡部凌太",
+      "labo": "usui"
+    },
+    {
+      "number": 22220066,
+      "name": "神田彩那",
+      "labo": "usui"
+    },
+    {
+      "number": 22220093,
+      "name": "佐々木健太",
+      "labo": "usui"
+    },
+    {
+      "number": 22220106,
+      "name": "佐藤泉月",
+      "labo": "usui"
+    },
+    {
+      "number": 22220112,
+      "name": "佐藤和佳",
+      "labo": "usui"
+    },
+    {
+      "number": 22220208,
+      "name": "渡辺まどか",
+      "labo": "usui"
+    },
+    {
+      "number": 22120059,
+      "name": "岡本菜奈",
+      "labo": "ito"
+    },
+    {
+      "number": 22220025,
+      "name": "伊藤恵太朗",
+      "labo": "ito"
+    },
+    {
+      "number": 22220167,
+      "name": "生井奏帆",
+      "labo": "ito"
+    },
+    
+    {
+      "number": 22220005,
+      "name": "秋山愛佳",
+      "labo": "kochi"
+    },
+    {
+      "number": 22220018,
+      "name": "五十嵐美聡",
+      "labo": "kochi"
+    },
+    {
+      "number": 22220060,
+      "name": "鎌田輝",
+      "labo": "kochi"
+    },
+    {
+      "number": 22220074,
+      "name": "工藤渓太",
+      "labo": "kochi"
+    },
+    {
+      "number": 22220096,
+      "name": "佐藤彩乃",
+      "labo": "kochi"
+    },
+    {
+      "number": 22220137,
+      "name": "高橋慧",
+      "labo": "kochi"
+    },
+    {
+      "number": 22220166,
+      "name": "中森絢香",
+      "labo": "kochi"
+    },
+    {
+      "number": 22220192,
+      "name": "宮原楓佳",
+      "labo": "kochi"
+    },
+    {
+      "number": 22220038,
+      "name": "大内理瑚",
+      "labo": "toki"
+    },
+    {
+      "number": 22220157,
+      "name": "冨田奏",
+      "labo": "toki"
+    },
+    {
+      "number": 22452001,
+      "name": "相澤佑斗",
+      "labo": "tomo"
+    },
+    {
+      "number": 22220030,
+      "name": "岩渕華凜",
+      "labo": "tomo"
+    },
+    {
+      "number": 22220047,
+      "name": "小田島義通",
+      "labo": "tomo"
+    },
+    {
+      "number": 22220078,
+      "name": "黒森景一",
+      "labo": "tomo"
+    },
+    {
+      "number": 22220110,
+      "name": "佐藤涼",
+      "labo": "tomo"
+    },
+    {
+      "number": 22220146,
+      "name": "丹野実晴",
+      "labo": "tomo"
+    },
+    {
+      "number": 22220186,
+      "name": "松本芽生",
+      "labo": "tomo"
+    },
+    {
+      "number": 22220190,
+      "name": "水野花音",
+      "labo": "tomo"
+    },
+    {
+      "number": 22220082,
+      "name": "金野優音",
+      "labo": "nagai"
+    },
+    {
+      "number": 22220206,
+      "name": "和島咲良",
+      "labo": "nagai"
+    },
+    {
+      "number": 22452002,
+      "name": "安住天希",
+      "labo": "nakata"
+    },
+    {
+      "number": 22452015,
+      "name": "渡辺陸太",
+      "labo": "nakata"
+    },
+    {
+      "number": 22120133,
+      "name": "髙階真央",
+      "labo": "nakata"
+    },
+    {
+      "number": 22220043,
+      "name": "小笠原叶乃",
+      "labo": "nakata"
+    },
+    {
+      "number": 22220056,
+      "name": "加藤唯花",
+      "labo": "nakata"
+    },
+    {
+      "number": 22220092,
+      "name": "佐々木葵菜",
+      "labo": "nakata"
+    },
+    {
+      "number": 22220098,
+      "name": "佐藤楓",
+      "labo": "nakata"
+    },
+    {
+      "number": 22220176,
+      "name": "早坂舞奈花",
+      "labo": "nakata"
+    },
+    {
+      "number": 22220194,
+      "name": "樅山鈴",
+      "labo": "nakata"
+    },
+    {
+      "number": 22452011,
+      "name": "石川諒",
+      "labo": "hiraoka"
+    },
+    {
+      "number": 22452011,
+      "name": "ソ センズイ",
+      "labo": "hiraoka"
+    },
+    {
+      "number": 22220009,
+      "name": "浅野裕斗",
+      "labo": "hiraoka"
+    },
+    {
+      "number": 22220067,
+      "name": "菅野雪音",
+      "labo": "hiraoka"
+    },
+    {
+      "number": 22220075,
+      "name": "久保勇人",
+      "labo": "hiraoka"
+    },
+    {
+      "number": 22220133,
+      "name": "大坊珠子",
+      "labo": "hiraoka"
+    },
+    {
+      "number": 22220140,
+      "name": "高林春羽",
+      "labo": "hiraoka"
+    },
+    {
+      "number": 22220183,
+      "name": "増子斗和",
+      "labo": "hiraoka"
+    },
+    {
+      "number": 22220193,
+      "name": "村上大樹",
+      "labo": "hiraoka"
+    },
+    {
+      "number": 22220204,
+      "name": "吉村颯",
+      "labo": "hiraoka"
+    },
+    {
+      "number": 22220152,
+      "name": "塚本翔太",
+      "labo": "masu"
+    },
+    {
+      "number": 22220164,
+      "name": "中野木綿織",
+      "labo": "masu"
+    },
+    {
+      "number": 22220195,
+      "name": "森進太朗",
+      "labo": "masu"
+    }
+  ]

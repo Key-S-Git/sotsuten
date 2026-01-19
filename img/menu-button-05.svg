@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="obi" xmlns="http://www.w3.org/2000/svg" width="28" height="24" viewBox="0 0 28 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #443c24;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" y="1.24" width="28" height="1.56"/>
+  <rect class="cls-1" y="11.22" width="28" height="1.56"/>
+  <rect class="cls-1" y="21.2" width="28" height="1.56"/>
+</svg>
