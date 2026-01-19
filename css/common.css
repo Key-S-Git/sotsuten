@@ -14,13 +14,36 @@ body {
     margin: 0
 }
 
+/* headerの基本設定 */
 header {
-    background-color: rgba(255,255,255,1);
-    background-image: url(../img/bg_pc\ 1.png);
     height: 80px;
     position: fixed;
     width: 100%;
-    z-index: 2
+    z-index: 2;
+    background-color: transparent; /* 本体は常に透明 */
+}
+
+/* 背景画像専用のレイヤー（常にここに画像を持たせる） */
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/bg_pc\ 1.png);
+    background-size: cover;
+    background-position: center;
+    
+    /* 出現・消失の両方に効くアニメーション設定 */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    z-index: -1; 
+}
+
+/* スクロール時に JS で付与されるクラス */
+header.scrolled::before {
+    opacity: 1; /* ここでふわっと出現させる */
 }
 
 main {
