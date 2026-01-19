@@ -50,7 +50,7 @@ main {
     border: 95px solid;
     border-image: radial-gradient(#fff 0%, #f4e7bc 70%, #f4e7bc 100%) 49%;
     display: flow-root;
-    margin-top: -1px; /* 上の要素と1px重ねる */
+    margin-top: -2px; /* 上の要素と1px重ねる */
 
 }
 
