@@ -43,7 +43,7 @@ header::before {
 
 /* スクロール時に JS で付与されるクラス */
 header.scrolled::before {
-    opacity: 1; /* ここでふわっと出現させる */
+    opacity: 0.8; /* ここでふわっと出現させる */
 }
 
 main {
