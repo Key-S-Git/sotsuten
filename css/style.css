@@ -172,7 +172,7 @@
 
 .lecturer-profile-li {
     background-color: #fff;
-    border: 4px solid #443c24;
+    border: 2px solid #443c24;
     display: grid;
     min-height: 484px;
     padding: 12px;
@@ -435,6 +435,10 @@
         transform: translateY(0)
     }
 
+    #outline-name{
+        font-size: 11px;
+    }
+
     #research-link {
         font-size: 16px;
         line-height: 36px
@@ -442,5 +446,13 @@
 
     #lecturer-profile-ul {
         justify-content: space-around
+    }
+    .lecturer-profile-li {
+        min-height: 0;
+        height: auto;
+        padding: 16px;
+        margin-bottom: 16px;
+        width: 90%;
+        display: block;
     }
 }
