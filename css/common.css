@@ -66,12 +66,12 @@ section {
 
 h2 {
     font-size: 24px;
-    font-weight: 400
+    font-weight: bold;
 }
 
 h3 {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: bold;
     margin-block-end: 0
 }
 
@@ -105,6 +105,22 @@ footer {
         height: 52px
     }
 
+    body{
+        font-size: 10px;
+    }
+
+    h2{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    h3{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    section {
+    margin: 48px 0
+}
+
     nav {
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
@@ -120,6 +136,7 @@ footer {
     main {
         padding: 0 16px;
         margin-top: -2px; /* 上の要素と1px重ねる */
+        border-image: radial-gradient(#fff 0%, #fff 40%, #f4e7bc 70%, #f4e7bc 100%) 49%;
     }
     .maincontents {
         /* スマホのボーダー幅に合わせてネガティブマージンを調整 */
