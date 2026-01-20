@@ -154,11 +154,10 @@
     color: #fff;
     display: inline-block;
     font-size: 20px;
-    font-weight: 600;
     line-height: 58px;
     margin-top: 40px;
     padding: 0 20px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 #lecturer-profile-ul {
@@ -186,8 +185,9 @@
 }
 
 .lecturer-profile-text {
+    font-family: "Cormorant Garamond", serif;
     display: block;
-    font-size: 12px
+    font-size: 12px;
 }
 
 .lecturer-profile-name {
