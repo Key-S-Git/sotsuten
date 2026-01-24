@@ -146,4 +146,10 @@ footer {
         margin-top: -2px; /* 上の要素と1px重ねる */
         background-image: url(../img/bg2025_sp.png);
     }
+    .maincontents {
+        /* スマホのボーダー幅に合わせてネガティブマージンを調整 */
+        margin-left: -10px;
+        margin-right: -10px;
+        padding: 0 10px;
+    }
 }
