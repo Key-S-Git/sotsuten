@@ -1,0 +1,370 @@
+#header-ul {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    width: 100%
+}
+
+.header-nav-img {
+    padding: 32px
+}
+
+#menu-button,
+#menu-check {
+    display: none
+}
+
+#top-background-img {
+    width: 100%;
+    height: auto;
+    min-height: auto;
+    max-height: none;
+    display: block;
+    object-fit: contain;
+}
+
+#title-img {
+    background-color: rgb(244, 68, 58);
+    box-sizing: border-box;
+    max-width: 750px;
+    padding: 32px;
+    position: absolute;
+    right: 0;
+    top: 100px;
+    width: 90%
+}
+
+#top-info-outer-div {
+    background: linear-gradient(180deg, rgba(244, 231, 188, .9), rgba(244, 231, 188, 1));;
+    height: 216px;
+    overflow: hidden;
+    transform: translateY(-1px);
+    width: 100%
+}
+
+#top-info-inner-div {
+    background-clip: content-box;
+    background-color: #fff;
+    cursor: pointer;
+    height: 42px;
+    margin: 76px auto;
+    max-width: 800px;
+    overflow: hidden;
+    padding: 0 80px
+}
+
+#top-info-text-div {
+    border-bottom: 1px solid #443c24;
+    height: 16px;
+    line-height: 16px;
+    margin: 13px auto;
+    max-width: 360px;
+    text-align: center
+}
+
+.section-title-ja {
+    color: #443c24;
+    font-size: 12px;
+    font-weight: 500;
+    transform: translateY(-10px)
+}
+
+#modal {
+    background-color: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    display: none;
+    height: 100vh;
+    left: 0;
+    padding: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3
+}
+
+#modal-window {
+    background-color: #fff;
+    height: calc(100vh - 224px);
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 32px 64px
+}
+
+#modal-contents {
+    height: calc(100% - 64px);
+    overflow: auto;
+    overscroll-behavior: contain
+}
+
+#modal-close-div {
+    height: 64px;
+    text-align: center
+}
+
+#modal-close-button {
+    background: none;
+    border-color: #443c24;
+    color: #443c24;
+    cursor: pointer;
+    height: 32px;
+    margin-top: 32px;
+    padding: 0;
+    width: 128px
+}
+
+#outline-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 24px
+}
+
+#greeting-teacher-div {
+    display: flex;
+    justify-content: flex-end
+}
+
+#greeting-img {
+    height: 120px;
+    width: 120px
+}
+
+#greeting-teacher-name {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    justify-content: center;
+    padding-right: 16px
+}
+
+.other-span {
+    margin: 0
+}
+
+#research-link-div {
+    text-align: center
+}
+
+#research-link {
+    background-color: #443c24;
+    border-radius: 39px;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 58px;
+    margin-top: 40px;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+#lecturer-profile-ul {
+    align-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between
+}
+
+.lecturer-profile-li {
+    background-color: #fff;
+    border: 2px solid #443c24;
+    display: grid;
+    min-height: 484px;
+    padding: 12px;
+    width: 348px
+}
+
+.lecturer-profile-img {
+    float: right;
+    height: 120px;
+    width: 120px
+}
+
+.lecturer-profile-text {
+    font-family: "Cormorant Garamond", serif;
+    display: block;
+    font-size: 12px;
+}
+
+.lecturer-profile-name {
+    font-size: 20px;
+    font-weight: 700
+}
+
+#map {
+    height: 80vh
+}
+
+#footer-contact-div {
+    padding-top: 48px
+}
+
+#portal-link-div {
+    text-align: center
+}
+
+#portal-link {
+    background-color: #fff;
+    border-radius: 39px;
+    color: #443c24;;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 48px;
+    margin: 16px;
+    padding: 0 20px;
+    text-decoration: none
+}
+
+#loading {
+    align-items: center;
+    -webkit-animation: blurAnim 3s ease 3s;
+    animation: blurAnim 6s ease 0s;
+    background-color: hsla(0, 0%, 100%, 0);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5
+}
+
+@keyframes blurAnim {
+    0% {
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        background-color: #f4e7bc
+    }
+
+    50% {
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        background-color: #f4e7bc
+    }
+
+    to {
+        backdrop-filter: blur(0);
+        -webkit-backdrop-filter: blur(0);
+        background-color: hsla(0, 0%, 100%, 0)
+    }
+}
+
+.loader-container {
+  width: 500px; /* 画像の横幅に合わせて調整 */
+  overflow: hidden;
+}
+
+.loading-image {
+  width: 100%;
+  display: block;
+  /* clip-pathで左側だけ表示される状態からスタート */
+  animation: 
+    fillBar 3s linear forwards, /* 右へ進む */
+    fadeOut 0.5s linear 3s forwards; /* 3秒後（出現完了後）に消える */
+
+}
+
+@keyframes fillBar {
+  0% {
+    clip-path: inset(0 100% 0 0); /* 右側を100%削った状態 */
+  }
+  100% {
+    clip-path: inset(0 0% 0 0);   /* 全て表示 */
+  }
+}
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; display: none; }
+}
+
+@media screen and (max-width:750px) {
+    #header-ul {
+        flex-direction: column;
+        height: auto
+    }
+
+    .header-nav-img {
+        padding: 12px
+    }
+
+    #menu-check:checked+nav {
+        opacity: 1;
+        transform: translateY(0)
+    }
+
+    #menu-button {
+        display: block;
+        float: right;
+        padding: 14px;
+        z-index: 4
+    }
+
+    #header-space {
+        height: 52px
+    }
+
+    #top-background-img {
+    width: 100%;
+    height: auto;       /* 高さを固定せず画像比率に任せる */
+    min-height: 0;      /* 固定高さを解除 */
+    object-fit: contain;/* 全体を映す */
+    object-position: center;
+}
+
+    #title-img {
+        padding: 16px
+    }
+
+    #top-info-inner-div {
+        padding: 0 16px
+    }
+
+    #top-info-text-div {
+        max-width: 320px
+    }
+
+    #modal {
+        padding: 16px
+    }
+
+    #modal-window {
+        padding: 32px 16px
+    }
+
+    .h1-img {
+        height: 24px
+    }
+
+    .section-title-ja {
+        font-size: 12px;
+        font-weight: 500;
+        transform: translateY(0)
+    }
+
+    #outline-name{
+        font-size: 11px;
+    }
+
+    #research-link {
+        font-size: 16px;
+        line-height: 36px
+    }
+
+    #lecturer-profile-ul {
+        justify-content: space-around
+    }
+    .lecturer-profile-li {
+        min-height: 0;
+        height: auto;
+        padding: 16px;
+        margin-bottom: 16px;
+        width: 90%;
+        display: block;
+    }
+}
