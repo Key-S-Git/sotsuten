@@ -225,7 +225,7 @@
     animation: fadeOutMain 1.0s ease 4.5s forwards; 
     background-color: #f4e7bc;
     display: flex;
-    height: 100vh;
+    height: 100%;
     justify-content: center;
     position: fixed;
     top: 0;
