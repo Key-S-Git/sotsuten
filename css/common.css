@@ -12,7 +12,8 @@ body {
     font-weight: 300;
     letter-spacing: 1.4;
     line-height: 2;
-    margin: 0
+    margin: 0;
+    height: 100%
 }
 
 /* headerの基本設定 */
@@ -22,7 +23,6 @@ header {
     width: 100%;
     z-index: 2;
     background-color: transparent; /* 本体は常に透明 */
-    height: 100%
 }
 
 /* 背景画像専用のレイヤー（常にここに画像を持たせる） */
