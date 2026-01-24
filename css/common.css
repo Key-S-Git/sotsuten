@@ -49,10 +49,16 @@ header.scrolled::before {
 }
 
 main {
-    border: 95px solid;
-    border-image: radial-gradient(#fff 0%, #f4e7bc 70%, #f4e7bc 100%) 49%;
     display: flow-root;
     margin-top: -1px; /* 上の要素と1px重ねる */
+    background-image: url(../img/bg2025_pc.png);
+    background-size: 100% 100%;
+
+  /* 画像が繰り返されないようにする */
+  background-repeat: no-repeat;
+
+  /* 画像を表示エリアの真ん中に配置する */
+  background-position: center;
 
 }
 
@@ -90,7 +96,7 @@ ul {
 }
 
 footer {
-    background-color: #f4e7bc;
+    background: linear-gradient(rgba(249, 238, 202, 1), rgba(244, 231, 188, 1));
     color: #443c24;
     height: 256px;
     text-align: center;
@@ -138,12 +144,6 @@ footer {
     main {
         padding: 0 16px;
         margin-top: -2px; /* 上の要素と1px重ねる */
-        border-image: radial-gradient(#fff 0%, #fff 40%, #f4e7bc 70%, #f4e7bc 100%) 49%;
-    }
-    .maincontents {
-        /* スマホのボーダー幅に合わせてネガティブマージンを調整 */
-        margin-left: -100px;
-        margin-right: -100px;
-        padding: 0 10px;
+        background-image: url(../img/bg2025_sp.png);
     }
 }
