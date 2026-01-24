@@ -222,9 +222,8 @@
 
 #loading {
     align-items: center;
-    /* 6秒かけて、最初はfillBar(3s)を待ち、その後にフェードアウト(0.5s)するように調整 */
-    animation: fadeOutMain 2.5s ease 3.0s forwards; 
-    background-color: #f4e7bc; /* 初期背景色 */
+    animation: fadeOutMain 2.5s ease 2.0s forwards; 
+    background-color: #f4e7bc;
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -232,30 +231,21 @@
     top: 0;
     width: 100%;
     z-index: 5;
-    pointer-events: none; /* フェード中も下の要素を触れるようにする場合はそのまま */
+    pointer-events: none;
 }
 
 /* --- 画像の設定 --- */
 .loading-image {
     width: 100%;
     display: block;
-    /* 3秒かけてバーが伸びるアニメーションのみ残す */
-    animation: fillBar 3s linear forwards;
+    animation: fillBar 2s linear forwards;
 }
 
 
 .loader-container {
-  width: 500px; /* 画像の横幅に合わせて調整 */
+  width: 90vw;
+  max-width: 700px;
   overflow: hidden;
-}
-
-.loading-image {
-  width: 100%;
-  display: block;
-  /* clip-pathで左側だけ表示される状態からスタート */
-  animation: 
-    fillBar 3s linear forwards, /* 右へ進む */
-
 }
 
 @keyframes fadeOutMain {
