@@ -36,7 +36,7 @@
 }
 
 #top-info-outer-div {
-    background: linear-gradient(180deg, rgba(244, 231, 188, .9), rgba(244, 231, 188, 1));;
+    background: linear-gradient(rgba(249, 234, 192, 1), rgba(249, 238, 203, 1));
     height: 216px;
     overflow: hidden;
     transform: translateY(-1px);
