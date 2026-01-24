@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 88px
+    scroll-padding-top: 88px;
+    height: 100%
 }
 
 body {
@@ -21,6 +22,7 @@ header {
     width: 100%;
     z-index: 2;
     background-color: transparent; /* 本体は常に透明 */
+    height: 100%
 }
 
 /* 背景画像専用のレイヤー（常にここに画像を持たせる） */
