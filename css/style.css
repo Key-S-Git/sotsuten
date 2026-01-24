@@ -222,7 +222,7 @@
 
 #loading {
     align-items: center;
-    animation: fadeOutMain 2.0s ease 5.0s forwards; 
+    animation: fadeOutMain 1.0s ease 4.5s forwards; 
     background-color: #f4e7bc;
     display: flex;
     height: 100vh;
