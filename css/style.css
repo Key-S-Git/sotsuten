@@ -222,7 +222,7 @@
 
 #loading {
     align-items: center;
-    animation: fadeOutMain 1.0s ease 1.0s forwards; 
+    animation: fadeOutMain 3.0s ease 2.0s forwards; 
     background-color: #f4e7bc;
     display: flex;
     height: 100%;
@@ -238,7 +238,7 @@
 .loading-image {
     width: 100%;
     display: block;
-    animation: fillBar 2.0s linear forwards;
+    animation: fillBar 2.0s linear forwards, fadeOutMain 1.0s ease 1.0s forwards;
 }
 
 
