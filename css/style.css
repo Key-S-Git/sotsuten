@@ -24,17 +24,6 @@
     object-fit: contain;
 }
 
-#title-img {
-    background-color: rgb(244, 68, 58);
-    box-sizing: border-box;
-    max-width: 750px;
-    padding: 32px;
-    position: absolute;
-    right: 0;
-    top: 100px;
-    width: 90%
-}
-
 #top-info-outer-div {
     background: linear-gradient(rgba(249, 234, 192, 1), rgba(249, 238, 203, 1));
     height: 216px;
