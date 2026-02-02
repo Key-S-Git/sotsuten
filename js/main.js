@@ -2,17 +2,10 @@
 	fetch("./json/exhibitor.json").then((e => e.json())).then((t => e(t))), fetch(
 			"./json/lecturer.json").then((e => e.json())).then((e => n(e))), window.onload =
 		() => {
-			let e = !1;
-			const t = document.getElementById("modal"),
-				n = document.getElementById("header-ul"),
+			const n = document.getElementById("header-ul"),
 				c = document.getElementById("menu-check");
-			document.getElementById("top-info-inner-div").onclick = () => {
-				t.style.display = "block", e = !0
-			}, document.getElementById("modal-close-button").onclick = () => {
-				t.style.display = "none", e = !1
-			}, document.addEventListener("click", (d => {
-				d.target === t && e && (t.style.display = "none", e = !1), d.target !==
-					n && d.target !== c && (c.checked = !1)
+			document.addEventListener("click", (d => {
+				d.target !== n && d.target !== c && (c.checked = !1)
 			}))
 		};
 	const e = e => {
@@ -45,7 +38,7 @@
 			r.setAttribute("class", "lecturer-profile-text"), r.appendChild(l);
 			const a = document.createElement("div");
 			a.appendChild(t), a.appendChild(c), a.appendChild(o), a.appendChild(r);
-			const m = document.createTextNode(e.position + "  " + e.career),
+			const m = document.createTextNode(e.position + "  " + e.career),
 				s = document.createElement("p");
 			s.appendChild(m);
 			const i = document.createElement("li");
@@ -55,11 +48,10 @@
 })();
 
 window.addEventListener('scroll', function() {
-    const header = document.querySelector('header');
-    // 50pxスクロールしたらクラスを付与
-    if (window.scrollY > 50) {
-        header.classList.add('scrolled');
-    } else {
-        header.classList.remove('scrolled');
-    }
+    const header = document.querySelector('header');
+    if (window.scrollY > 50) {
+        header.classList.add('scrolled');
+    } else {
+        header.classList.remove('scrolled');
+    }
 });
