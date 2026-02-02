@@ -26,7 +26,7 @@
 
 #top-info-outer-div {
     background: linear-gradient(rgba(249, 234, 192, 1), rgba(249, 238, 203, 1));
-    height: 216px;
+    height: 108px;
     overflow: hidden;
     transform: translateY(-1px);
     width: 100%
@@ -154,7 +154,7 @@
     align-items: flex-start;
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 30px;
     justify-content: space-between
 }
 
@@ -292,6 +292,9 @@
     object-fit: contain;/* 全体を映す */
     object-position: center;
 }
+    #top-info-outer-div {
+        height: 54px;
+    }
 
     #title-img {
         padding: 16px
