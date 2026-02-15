@@ -33,9 +33,22 @@
 			const d = document.createTextNode(e.name),
 				o = document.createElement("span");
 			o.setAttribute("class", "lecturer-profile-name"), o.appendChild(d);
-			const l = document.createTextNode(e.belongs),
-				r = document.createElement("span");
-			r.setAttribute("class", "lecturer-profile-text"), r.appendChild(l);
+			const r = document.createElement("span");
+r.setAttribute("class", "lecturer-profile-text");
+// 1. 文章を改行コード(\n)で分割してリストにする
+const lines = e.belongs.split('\n');
+// 2. 分割した一行ずつ処理する
+lines.forEach((line, index) => {
+    // 文字を作成して追加
+    r.appendChild(document.createTextNode(line));
+
+    // 最後の行以外なら、<br>タグを作成して追加
+    if (index < lines.length - 1) {
+        r.appendChild(document.createElement('br'));
+    }
+});
+
+
 			const a = document.createElement("div");
 			a.appendChild(t), a.appendChild(c), a.appendChild(o), a.appendChild(r);
 			const m = document.createTextNode(e.position + "  " + e.career),
